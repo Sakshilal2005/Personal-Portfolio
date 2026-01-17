@@ -255,9 +255,9 @@ section{
 .social-icons{
     margin-top: 2rem;
     display: flex;
-    justify-content: space-between;
-    width: 220px;
-    height: 40px;
+    gap: 1.2rem;
+    width: auto;
+    justify-content: flex-start;
 }
 
 .social-icons a{
@@ -798,3 +798,4 @@ footer a{
     }
 
 }
+
