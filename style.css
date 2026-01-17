@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
 
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -315,6 +320,7 @@ section{
     max-width:270px;
     height: auto;
     display: block;
+    margin: 0 auto;
 }
 
 /*About section*/
@@ -771,12 +777,15 @@ footer a{
     }
     .home{
         flex-direction: column;
-        text-align: center;
         width: 100%;
+        overflow-x: hidden;
     }
     .home-image{
-        order: -1;
-        margin-bottom: 2rem;
+        margin: 0 auto 2rem;
+    }
+    .home-content{
+        max-width: 100%;
+        text-align: center;
     }
     .about{
         flex-direction: column-reverse;
@@ -791,6 +800,10 @@ footer a{
         max-width: 220px
         height: auto;
     }
+    section{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 }
 @media(max-width:420px){
     html{
@@ -799,12 +812,13 @@ footer a{
     footer p{
         font-size: .6rem;
     }
-    .img-about img{
-        max-width: 100%;
-        height: auto;
-        width: 400px;
+    .project-card,
+    .btn,
+    .social-icons a{
+        overflow: hidden;
     }
 
 }
+
 
 
