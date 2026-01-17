@@ -797,7 +797,7 @@ footer a{
         font-size: .9rem;
     }
     .img-box img{
-        max-width: 220px
+        max-width: 220px;
         height: auto;
     }
     section{
@@ -819,6 +819,7 @@ footer a{
     }
 
 }
+
 
 
 
