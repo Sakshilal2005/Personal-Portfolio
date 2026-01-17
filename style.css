@@ -253,7 +253,7 @@ section{
 }
 
 .social-icons{
-    margin-top: 8rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: space-between;
     width: 220px;
@@ -294,7 +294,7 @@ section{
     height: 100%;
     background: var(--hover-color);
     transition: .6s;
-    z-index: -1;
+    z-index: 0;
 }
 
 .social-icons a:hover::before{
@@ -796,4 +796,5 @@ footer a{
         height: auto;
         width: 400px;
     }
+
 }
