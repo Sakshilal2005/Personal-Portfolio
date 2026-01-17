@@ -118,11 +118,12 @@ section{
 
 .home{
     min-height: 100vh;
-    width: 85%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 3rem;
+    flex-wrap: wrap;
 }
 
 .home-content{
@@ -312,7 +313,8 @@ section{
 .img-box img{
     width: 100%;
     max-width:270px;
-    height: 80%;
+    height: auto;
+    display: block;
 }
 
 /*About section*/
@@ -768,10 +770,13 @@ footer a{
         top: 100%;
     }
     .home{
-        grid-template-columns: 1fr;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
     }
     .home-image{
-        margin-bottom: 5rem;
+        order: -1;
+        margin-bottom: 2rem;
     }
     .about{
         flex-direction: column-reverse;
@@ -782,7 +787,10 @@ footer a{
     footer p{
         font-size: .9rem;
     }
-
+    .img-box img{
+        max-width: 220px
+        height: auto;
+    }
 }
 @media(max-width:420px){
     html{
@@ -798,4 +806,5 @@ footer a{
     }
 
 }
+
 
