@@ -3,6 +3,7 @@
 html,body{
     width: 100%;
     overflow-x: hidden;
+    font-size: 108%;
 }
 
 *{
@@ -73,7 +74,7 @@ header.sticky{
 }
 
 .logo{
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -90,6 +91,7 @@ span{
      color: var(--text-color);
      font-weight: 500;
      padding: 10px 20px;
+     font-size: 1.05rem;
 }
 
 .navlist a:hover{
@@ -139,10 +141,11 @@ section{
 .home-content h1{
     font-size: var(--big-font);
     font-weight: 700;
+    font-size: 2.8rem;
 }
 
 .change-text{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 600;
 }
 
@@ -177,7 +180,8 @@ section{
 
  .home-content p{
     color: #bdbdbd;
-    line-height: 1.6;
+    font-size: 1.05rem;
+    line-height: 1.8;
  }
 
  .info-box{
@@ -203,18 +207,18 @@ section{
     display: flex;
     justify-content: space-between;
     width: 320px;
-    height: 45px;
+    height: 52px;
 }
 
 .btn-box .btn{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
+    width: 170px;
     height: 100%;
     background: var(--hover-color);
     color: var(--bg-color);
-    font-size: 1rem;
+    font-size: 1.1rem;
     letter-spacing: 1px;
     font-weight: 600;
     transition: .6s;
@@ -269,8 +273,8 @@ section{
 
 .social-icons a{
     display: inline-flex;
-    width: 50px;
-    height: 100%;
+    width: 58px;
+    height: 58px;
     justify-content: center;
     align-items: center;
     background: var(--bg-color);
@@ -285,7 +289,7 @@ section{
 }
 
 .social-icons a i{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .social-icons a:hover{
@@ -368,6 +372,9 @@ section{
     color: #fdfdfd;
     font-weight: 300;
     margin-bottom: 1.5rem;
+    font-size: 1.05rem;
+    line-height: 1.8;
+
 }
 
 .info-about1,
@@ -438,6 +445,9 @@ section{
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
+}
+.skill-left .skill-bar .info p {
+    font-size: 1.05rem;
 }
 
 .skill-left .skill-bar .bar{
@@ -541,6 +551,8 @@ section{
 
 .projects{
     background: var(--secon-bg-color);
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .projects-box{
@@ -548,6 +560,8 @@ section{
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 2rem;
     margin-top: 3rem;
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
 .project-card{
@@ -567,15 +581,17 @@ section{
 }
 
 .project-content h3{
-    font-size: 1.3rem;
+    font-size: 1.43rem;
     margin-bottom: .5rem;
     color: var(--hover-color);
 }
 
 .project-content p{
-    font-size: .9rem;
     color: #bdbdbd;
     margin-bottom: 1rem;
+    font-size: 1.05rem;
+    line-height: 1.8;
+
 }
 
 .project-content .btn{
@@ -595,6 +611,8 @@ section{
 .contact{
     background-color: var(--secon-bg-color);
     width: 100%;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .main-text h2{
@@ -609,6 +627,8 @@ section{
     max-width: 50rem;
     margin: 1rem auto;
     margin-bottom: 3rem;
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
 .contact form input,
@@ -619,7 +639,8 @@ section{
     margin-bottom: .8rem;
     border: none;
     border-radius: 5px;
-    padding: .7rem;
+    padding: 1rem;
+    font-size: 1.1rem;
 }
 
 .contact form textarea{
@@ -634,8 +655,8 @@ section{
 
 .formBtn .btn{
     cursor: pointer;
-    font-size: 1rem;
-    
+    font-size: 1.15rem;
+    padding: 14px 32px;
 }
 
 /*footer*/
@@ -656,8 +677,9 @@ footer a{
     justify-content: center;
     color: var(--secon-bg-color);
     background: var(--hover-color);
-    padding: .6rem;
+    padding: 1rem;
     border-radius: 5px;
+    font-size: 1.6rem;
 }
 
 
@@ -748,6 +770,9 @@ footer a{
 }
 
 @media(max-width:768px){
+    html {
+        font-size: 104%;
+    }
     #menu-icon{
         display: block;
         transition: all .4s ease;
@@ -788,10 +813,10 @@ footer a{
         text-align: center;
     }
     .home-content h1{
-        font-size:2rem;
+        font-size:2.3rem;
     }
     .change-text{
-        font-size: 1.2rem
+        font-size: 1.4rem
     }
     .home-content p{
         font-size:0.95rem;
@@ -828,7 +853,6 @@ footer a{
     }
 
 }
-
 
 
 
