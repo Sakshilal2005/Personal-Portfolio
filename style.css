@@ -633,6 +633,35 @@ section{
     transform: translateY(-10px);
     box-shadow: 0 0 1rem #12f7ff;
 }
+.project-card{
+    min-height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.project-content h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.project-content p{
+    flex-grow: 1;
+    margin: 15px 0;
+}
+
+.projects-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 2rem;
+}
 
 
 /*contact section*/
